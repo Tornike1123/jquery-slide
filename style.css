@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: gray;
+}
+.clickme {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 500px;
+}
+.clickme button {
+  background-color: blue;
+  font-size: 15px;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+.slide {
+  display: none;
+  background-color: greenyellow;
+  height: 300px;
+  width: 100%;
+
+  position: absolute;
+}
+.slide p {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 70px;
+}
